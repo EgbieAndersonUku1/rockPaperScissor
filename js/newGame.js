@@ -446,7 +446,6 @@ class HandleUI {
   * @param {string} winner - The name of the winner.
   */
   static showWinner(winner) {
-    alert(winner)
     getQuery(mySettings.Headings.H2.winner).textContent = `${winner} wins`;
   }
 
